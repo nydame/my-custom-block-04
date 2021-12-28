@@ -1,0 +1,24 @@
+{
+  "name": "my-custom-block-03",
+  "version": "1.0.0",
+  "description": "A custom block that accepts input from editors.",
+  "main": "index.js",
+  "scripts": {
+    "build": "wp-scripts build",
+    "start": "wp-scripts start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nydame/my-custom-block-01.git"
+  },
+  "author": "Felicia Betancourt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nydame/my-custom-block-01/issues"
+  },
+  "homepage": "https://github.com/nydame/my-custom-block-01#readme",
+  "devDependencies": {
+    "@wordpress/scripts": "19.2.2"
+  }
+}

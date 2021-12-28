@@ -1,0 +1,1 @@
+{"version":3,"file":"index.css","mappings":";;;AAAA;AACA;EACE;EACA;EACA;AACF,C","sources":["webpack://my-custom-block-03/./src/index.scss"],"sourcesContent":["/* For the editor only */\n.wp-block-pss-blocks-my-dynamic-gutenberg-block {\n  background-color: goldenrod;\n  color: darkmagenta;\n  padding: 0;\n}\n"],"names":[],"sourceRoot":""}
