@@ -1,6 +1,21 @@
 /* For the editor only */
-.wp-block-pss-blocks-my-dynamic-gutenberg-block {
-  background-color: goldenrod;
-  color: darkmagenta;
-  padding: 0;
+.wp-block-pss-blocks-media-uploader {
+  display: flex;
+  .image-controls {
+    padding: 0 0.5rem;
+    input,
+    textarea {
+      margin-left: 1rem;
+      outline: 1px solid #ccc;
+    }
+    textarea::placeholder {
+      opacity: 0.5;
+    }
+    .separator {
+      margin: 1rem 0;
+    }
+    .label {
+      margin: 1rem 0 0.5rem;
+    }
+  }
 }

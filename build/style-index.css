@@ -1,11 +1,1 @@
-/*!***************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/style.scss ***!
-  \***************************************************************************************************************************************************************************************************************************************/
-/* for both the editor and production */
-.wp-block-pss-blocks-my-dynamic-gutenberg-block {
-  background-color: blanchedalmond;
-  color: darkmagenta;
-  padding: 1em;
-}
-
-/*# sourceMappingURL=style-index.css.map*/
+.wp-block-pss-blocks-my-dynamic-gutenberg-block{background-color:#ffebcd;color:#8b008b;padding:1em}
