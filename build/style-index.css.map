@@ -1,0 +1,1 @@
+{"version":3,"file":"style-index.css","mappings":";;;AAAA;AACA;EACE;EACA;EACA;AACF,C","sources":["webpack://my-custom-block-03/./src/style.scss"],"sourcesContent":["/* for both the editor and production */\n.wp-block-pss-blocks-my-dynamic-gutenberg-block {\n  background-color: blanchedalmond;\n  color: darkmagenta;\n  padding: 1em;\n}\n"],"names":[],"sourceRoot":""}

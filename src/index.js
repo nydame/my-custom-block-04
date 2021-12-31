@@ -36,7 +36,7 @@ registerBlockType( 'pss-blocks/media-uploader', {
     mediaUrl: {
       type: 'string',
       source: 'attribute',
-      attribute: 'src',
+      attribute: 'data-src',
       selector: 'img',
       default: '',
     },
@@ -62,7 +62,7 @@ registerBlockType( 'pss-blocks/media-uploader', {
       setAttributes( { caption } );
     }
 
-    debugger;
+    // debugger;
     return ( <div { ...blockProps }>
       { attributes.mediaId>0? <img src={attributes.mediaUrl} alt={__('Selected image','pss-blocks')} /> : null }
       <div className='image-controls'>
@@ -83,7 +83,7 @@ registerBlockType( 'pss-blocks/media-uploader', {
   save: ({ attributes}) => {
     const blockProps = useBlockProps.save();
     return ( <div { ...blockProps }>
-      {attributes.mediaUrl && <figure><img src={attributes.mediaLargeUrl} alt={attributes.imgAlt? attributes.imgAlt : __('Uploaded image', 'pss-blocks')} /><figcaption>{ attributes.caption }</figcaption></figure>}
+      {attributes.mediaLargeUrl && <figure><img src={attributes.mediaLargeUrl} alt={attributes.imgAlt? attributes.imgAlt : __('Uploaded image', 'pss-blocks')} data-src={attributes.mediaUrl} /><figcaption>{ attributes.caption }</figcaption></figure>}
     </div> );
   },
 } );

@@ -1,1 +1,32 @@
-.wp-block-pss-blocks-media-uploader{display:flex}.wp-block-pss-blocks-media-uploader .image-controls{padding:0 .5rem}.wp-block-pss-blocks-media-uploader .image-controls input,.wp-block-pss-blocks-media-uploader .image-controls textarea{margin-left:1rem;outline:1px solid #ccc}.wp-block-pss-blocks-media-uploader .image-controls textarea::-moz-placeholder{opacity:.5}.wp-block-pss-blocks-media-uploader .image-controls textarea:-ms-input-placeholder{opacity:.5}.wp-block-pss-blocks-media-uploader .image-controls textarea::placeholder{opacity:.5}.wp-block-pss-blocks-media-uploader .image-controls .separator{margin:1rem 0}.wp-block-pss-blocks-media-uploader .image-controls .label{margin:1rem 0 .5rem}
+/*!***************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/index.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************/
+/* For the editor only */
+.wp-block-pss-blocks-media-uploader {
+  display: flex;
+}
+.wp-block-pss-blocks-media-uploader .image-controls {
+  padding: 0 0.5rem;
+}
+.wp-block-pss-blocks-media-uploader .image-controls input,
+.wp-block-pss-blocks-media-uploader .image-controls textarea {
+  margin-left: 1rem;
+  outline: 1px solid #ccc;
+}
+.wp-block-pss-blocks-media-uploader .image-controls textarea::-moz-placeholder {
+  opacity: 0.5;
+}
+.wp-block-pss-blocks-media-uploader .image-controls textarea:-ms-input-placeholder {
+  opacity: 0.5;
+}
+.wp-block-pss-blocks-media-uploader .image-controls textarea::placeholder {
+  opacity: 0.5;
+}
+.wp-block-pss-blocks-media-uploader .image-controls .separator {
+  margin: 1rem 0;
+}
+.wp-block-pss-blocks-media-uploader .image-controls .label {
+  margin: 1rem 0 0.5rem;
+}
+
+/*# sourceMappingURL=index.css.map*/
